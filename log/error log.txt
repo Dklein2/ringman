@@ -1,0 +1,149 @@
+cmd /c "Powershell -executionpolicy unrestricted "& 'C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\appid.ps1'" Ringman-native-gmx -InstallLocation > "C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\temp"
+
+Get-AppxPackageManifest : Cannot validate argument on parameter 'Package'. The 
+argument is null or empty. Provide an argument that is not null or empty, and 
+then try the command again.
+At C:\Program Files 
+(x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\appid.ps1:4 char:42
++ foreach ($id in (Get-AppxPackageManifest 
+$app).package.applications.application. ...
++                                          ~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-AppxPackageManifest], Para 
+   meterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.Windo 
+   ws.Appx.PackageManager.Commands.GetAppxPackageManifestCommand
+ 
+cmd /c "xcopy "C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\*.*" "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287" /y /e /i"
+
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\App.xaml
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\AppxManifest.xml
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\MainPage.xaml
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\MarkedUp.winmd
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\Microsoft.Advertising.WinRT.UI.winmd
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\Microsoft.Advertising.WinRT.UI.xml
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\MicrosoftAdvertising.winmd
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\MicrosoftAdvertising.xml
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\Assets\liveTile.png
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\Assets\Logo.png
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\Assets\options.ini
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\Assets\secondaryTile.png
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\Assets\secondaryWideTile.png
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\Assets\Settings.html
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\Assets\SmallLogo.png
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\Assets\SplashScreen.png
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\Assets\StoreLogo.png
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\Common\StandardStyles.xaml
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\resources\Themes\Generic.xaml
+19 File(s) copied
+cmd /c "xcopy "C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\userdata\*.*" "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287" /y /e"
+
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\userdata\Assets\options.ini
+1 File(s) copied
+"C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\GMAssetCompiler.exe" /c /m=win8n  /config="Default" /tgt=4194304 /tg="C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\\TextureGroups.txt" /to="C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\\TextureOptions.txt" /obob=True /obpp=False /obru=True /obes=False /i=3 /cvm /tp=1024 /mv=1 /iv=0 /rv=0 /bv=1224 /gn="Ringman" /td="C:\Users\DAVIDK~1\AppData\Local\Temp" /cd="C:\Users\David Klein\Documents\GameMaker\Cache" /o="C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_5759" "C:\Users\David Klein\OneDrive\ringman\Ringman.gmx\Ringman.project.gmx" 
+
+GMSprite - Unable to parse node - type - text - 0
+GMSprite - Unable to parse node - type - text - 0
+GMSprite - Unable to parse node - type - text - 0
+GMSprite - Unable to parse node - type - text - 0
+GMSprite - Unable to parse node - type - text - 0
+GMSprite - Unable to parse node - type - text - 0
+GMSprite - Unable to parse node - type - text - 0
+GMSprite - Unable to parse node - type - text - 0
+Saving IFF file... C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_5759\Ringman.win
+Writing Chunk... GEN8
+Writing Chunk... OPTN
+Writing Chunk... EXTN
+Writing Chunk... SOND
+*writing audio file C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_5759\ringManBgm.ogg...
+*writing audio file C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_5759\pigManBgm.ogg...
+Writing Chunk... SPRT
+Warning : resource weaponOverlay_0 rescaled from 1080,217 to 540,108
+Warning : resource rotationOverlaySprite_0 rescaled from 1080,217 to 540,108
+Writing Chunk... BGND
+Warning : resource background0 rescaled from 1080,720 to 540,360
+Warning : resource MenuBackground rescaled from 1080,720 to 540,360
+Warning : resource HS_background rescaled from 1080,720 to 540,360
+Warning : resource PigSkinMenu rescaled from 1080,720 to 540,360
+Warning : resource treeBackground rescaled from 1080,720 to 540,360
+Warning : resource skyBlue rescaled from 1080,720 to 540,360
+Warning : resource overcloud1 rescaled from 1080,668 to 540,334
+Warning : resource foregroundTrees rescaled from 1080,431 to 540,215
+Warning : resource contextMenu rescaled from 1080,720 to 540,360
+Warning : resource UserContextMenu rescaled from 1080,720 to 540,360
+Warning : resource PigUserContextMenu rescaled from 1080,720 to 540,360
+Warning : resource how1 rescaled from 1077,720 to 538,360
+Warning : resource how2 rescaled from 1080,720 to 540,360
+Warning : resource how3 rescaled from 1080,720 to 540,360
+Warning : resource how4 rescaled from 1077,720 to 538,360
+Writing Chunk... PATH
+Writing Chunk... SCPT
+Writing Chunk... SHDR
+Writing Chunk... FONT
+Writing Chunk... TMLN
+Writing Chunk... OBJT
+Writing Chunk... ROOM
+Writing Chunk... DAFL
+Writing Chunk... TPAGE
+Writing Chunk... CODE
+Writing Chunk... VARI
+Writing Chunk... FUNC
+Writing Chunk... STRG
+Writing Chunk... TXTR
+0 Compressing texture... writing texture texture_0.png... 
+1 Compressing texture... writing texture texture_1.png... 
+2 Compressing texture... writing texture texture_2.png... 
+3 Compressing texture... writing texture texture_3.png... 
+4 Compressing texture... writing texture texture_4.png... 
+5 Compressing texture... writing texture texture_5.png... 
+6 Compressing texture... writing texture texture_6.png... 
+7 Compressing texture... writing texture texture_7.png... 
+8 Compressing texture... writing texture texture_8.png... 
+Writing Chunk... AUDO
+Writing Chunk... SCPT
+Writing Chunk... DBGI
+Writing Chunk... STRG
+Stats : GMA : Instance=13, Global=26
+cmd /c "xcopy "C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\*.*" "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287" /y /e"
+
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\App.xaml
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\AppxManifest.xml
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\CurrentAppSimulatorLib.dll
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\MainPage.xaml
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\MarkedUp.winmd
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\Microsoft.Advertising.WinRT.UI.winmd
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\Microsoft.Advertising.WinRT.UI.xml
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\MicrosoftAdvertising.winmd
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\MicrosoftAdvertising.xml
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\WinMetroRunner.exe
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\WinMetroRunnerAppComponent.dll
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\WinMetroRunnerAppComponent.winmd
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\Common\StandardStyles.xaml
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xaml
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\Microsoft.Advertising.WinRT.UI\bootstrap.html
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\Microsoft.Advertising.WinRT.UI\ormma.js
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\Microsoft.Advertising.WinRT.UI\Themes\Generic.xaml
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\Themes\Generic.xaml
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\WinMetroRunnerAppComponent\SimplePixelShader.cso
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\WinMetroRunnerAppComponent\SimpleVertexShader.cso
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\WinMetroRunnerAppComponent\SVN_Lit_PixelShader.cso
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\WinMetroRunnerAppComponent\SVN_Lit_VertexShader.cso
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\WinMetroRunnerAppComponent\SVN_PixelShader.cso
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\WinMetroRunnerAppComponent\SVN_VertexShader.cso
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\WinMetroRunnerAppComponent\SVS_PixelShader.cso
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\WinMetroRunnerAppComponent\SVS_VertexShader.cso
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\WinMetroRunnerAppComponent\SV_PixelShader.cso
+C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\x86\WinMetroRunnerAppComponent\SV_VertexShader.cso
+28 File(s) copied
+cmd /c ""C:\WINDOWS\SysNative\certutil.exe" -p "" "C:\Users\David Klein\OneDrive\ringman\Ringman.gmx\Configs\Default\Windows8\Ringman_TemporaryKey.pfx" > "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\a50976.txt""
+
+cmd /c ""C:\Program Files (x86)\Windows Kits\8.0\bin\x86\makepri.exe" new /pr "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287" /cf "C:\Program Files (x86)\Steam\SteamApps\common\gamemaker_studio\Windows8\Native\priconfig.xml"  /mn "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\AppxManifest.xml" /of "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\resources.pri" /o "
+
+Icmd /c ""C:\Program Files (x86)\Windows Kits\8.0\bin\x86\makeappx.exe" pack /o /d "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287" /p "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\testpackage""
+
+Microsoft (R) MakeAppx Tool version 1.0.0.0 Copyright (C) 2012 Microsoft.  All rights reserved.  The package path (/p) parameter is: "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\testpackage" The content directory (/d) parameter is: "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287" Enumerating files from directory "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287" Packing 43 file(s) in "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287" (content directory) to "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\testpackage.appx" (package name). Using "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\AppxManifest.xml" as the manifest for the package. Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\App.xaml" to the package as a payload file.  Its path in the package is "App.xaml". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\WinMetroRunnerAppComponent\SimplePixelShader.cso" to the package as a payload file.  Its path in the package is "WinMetroRunnerAppComponent\SimplePixelShader.cso". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\MainPage.xaml" to the package as a payload file.  Its path in the package is "MainPage.xaml". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\WinMetroRunnerAppComponent\SimpleVertexShader.cso" to the package as a payload file.  Its path in the package is "WinMetroRunnerAppComponent\SimpleVertexShader.cso". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Microsoft.Advertising.WinRT.UI\Themes\Generic.xaml" to the package as a payload file.  Its path in the package is "Microsoft.Advertising.WinRT.UI\Themes\Generic.xaml". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Microsoft.Advertising.WinRT.UI.winmd" to the package as a payload file.  Its path in the package is "Microsoft.Advertising.WinRT.UI.winmd". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\WinMetroRunnerAppComponent\SVN_VertexShader.cso" to the package as a payload file.  Its path in the package is "WinMetroRunnerAppComponent\SVN_VertexShader.cso". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\MarkedUp.winmd" to the package as a payload file.  Its path in the package is "MarkedUp.winmd". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\MicrosoftAdvertising.xml" to the package as a payload file.  Its path in the package is "MicrosoftAdvertising.xml". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\WinMetroRunnerAppComponent\SV_PixelShader.cso" to the package as a payload file.  Its path in the package is "WinMetroRunnerAppComponent\SV_PixelShader.cso". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\MicrosoftAdvertising.winmd" to the package as a payload file.  Its path in the package is "MicrosoftAdvertising.winmd". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\WinMetroRunnerAppComponent\SVN_Lit_PixelShader.cso" to the package as a payload file.  Its path in the package is "WinMetroRunnerAppComponent\SVN_Lit_PixelShader.cso". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\WinMetroRunnerAppComponent\SVN_PixelShader.cso" to the package as a payload file.  Its path in the package is "WinMetroRunnerAppComponent\SVN_PixelShader.cso". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Common\StandardStyles.xaml" to the package as a payload file.  Its path in the package is "Common\StandardStyles.xaml". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Microsoft.Advertising.WinRT.UI.xml" to the package as a payload file.  Its path in the package is "Microsoft.Advertising.WinRT.UI.xml". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Microsoft.Advertising.WinRT.UI\bootstrap.html" to the package as a payload file.  Its path in the package is "Microsoft.Advertising.WinRT.UI\bootstrap.html". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Themes\Generic.xaml" to the package as a payload file.  Its path in the package is "Themes\Generic.xaml". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\WinMetroRunnerAppComponent\SV_VertexShader.cso" to the package as a payload file.  Its path in the package is "WinMetroRunnerAppComponent\SV_VertexShader.cso". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Assets\secondaryTile.png" to the package as a payload file.  Its path in the package is "Assets\secondaryTile.png". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Assets\liveTile.png" to the package as a payload file.  Its path in the package is "Assets\liveTile.png". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Assets\secondaryWideTile.png" to the package as a payload file.  Its path in the package is "Assets\secondaryWideTile.png". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Microsoft.Advertising.WinRT.UI\ormma.js" to the package as a payload file.  Its path in the package is "Microsoft.Advertising.WinRT.UI\ormma.js". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\WinMetroRunnerAppComponent\SVN_Lit_VertexShader.cso" to the package as a payload file.  Its path in the package is "WinMetroRunnerAppComponent\SVN_Lit_VertexShader.cso". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\WinMetroRunnerAppComponent\SVS_PixelShader.cso" to the package as a payload file.  Its path in the package is "WinMetroRunnerAppComponent\SVS_PixelShader.cso". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\WinMetroRunnerAppComponent.winmd" to the package as a payload file.  Its path in the package is "WinMetroRunnerAppComponent.winmd". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\WinMetroRunnerAppComponent.dll" to the package as a payload file.  Its path in the package is "WinMetroRunnerAppComponent.dll". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\WinMetroRunner.exe" to the package as a payload file.  Its path in the package is "WinMetroRunner.exe". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Assets\Settings.html" to the package as a payload file.  Its path in the package is "Assets\Settings.html". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xaml" to the package as a payload file.  Its path in the package is "Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xaml". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\WinMetroRunnerAppComponent\SVS_VertexShader.cso" to the package as a payload file.  Its path in the package is "WinMetroRunnerAppComponent\SVS_VertexShader.cso". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Assets\WideLogo.png" to the package as a payload file.  Its path in the package is "Assets\WideLogo.png". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Assets\Logo.png" to the package as a payload file.  Its path in the package is "Assets\Logo.png". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Assets\StoreLogo.png" to the package as a payload file.  Its path in the package is "Assets\StoreLogo.png". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Assets\SmallLogo.png" to the package as a payload file.  Its path in the package is "Assets\SmallLogo.png". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Assets\SplashScreen.png" to the package as a payload file.  Its path in the package is "Assets\SplashScreen.png". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Assets\ringManBgm.ogg" to the package as a payload file.  Its path in the package is "Assets\ringManBgm.ogg". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Assets\pigManBgm.ogg" to the package as a payload file.  Its path in the package is "Assets\pigManBgm.ogg". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Assets\netread.dll" to the package as a payload file.  Its path in the package is "Assets\netread.dll". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Assets\game.win" to the package as a payload file.  Its path in the package is "Assets\game.win". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Assets\game.yydebug" to the package as a payload file.  Its path in the package is "Assets\game.yydebug". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\Assets\options.ini" to the package as a payload file.  Its path in the package is "Assets\options.ini". Adding "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\gm_ttt_31287\resources.pri" to the package as a payload file.  Its path in the package is "resources.pri". Package creation succeeded. cmd /c ""C:\Program Files (x86)\Windows Kits\8.0\bin\x86\signtool.exe" sign /a /v /fd SHA256 /f "C:\Users\David Klein\OneDrive\ringman\Ringman.gmx\Configs\Default\Windows8\Ringman_TemporaryKey.pfx" "C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\Ringman.appx""
+
+The following certificate was selected:
+    Issued to: David Klein     Issued by: David Klein     Expires:   Wed Apr 15 02:21:03 2015     SHA1 hash: 07EFB7D5C1F85D3CFE53F76E80AB550ACC263B7C 
+Done Adding Additional Store
+Successfully signed: C:\Users\DAVIDK~1\AppData\Local\Temp\gm_ttt_39636\Ringman.appx 
+Number of files successfully Signed: 1 Number of warnings: 0 Number of errors: 0 Compile finished: 7:54:10 AM

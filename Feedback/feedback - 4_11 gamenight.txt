@@ -1,0 +1,12 @@
+Make Purple rings take away points. (added, but need to fix a bug this causes)
+Highscores: make the current score a different color.
+Limit on bullets.
+
+HowTo: In the act2 page there is a spelling error (FIXED)
+audio doesnt stop if the player looses by purple rings (FIXED)
+
+(new) when score is less than 50 in act 2 ,from hitting purple rings the game will revert
+to act 1 mode.
+
+"its like portal but for kids"
+
