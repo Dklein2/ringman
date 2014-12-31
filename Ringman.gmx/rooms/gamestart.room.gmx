@@ -55,15 +55,19 @@ instance_create(0,0,updateCheckerObj);
 else if (deviceManagement == 1)
 {
     instance_create(0,0,touchPromptObj);
-    if(adsonoff==1)
-    {
+   if(testingVar ==0)
+   {
+        if(adsonoff==1)
+        {
         ads_enable((room_width/2)-200,(room_height - 100),0);
         analytics_event("Free User Started App");
-    }
-    else
-    {
+        }
+        else
+        {
         analytics_event("Paid User Started App");
-    }
+        }
+   }
+   else{}
 }
 else if (deviceManagement == 2)
 {

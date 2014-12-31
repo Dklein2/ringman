@@ -14,20 +14,31 @@
 {
      introLoopSwitch = 0;
      audio_play_sound(flyToLiveFull,10,false);
-     analytics_event("Ringman Selected");
-     
+     if(testingVar ==0)
+     {
+        analytics_event("Ringman Selected");
+     }
+     else{}
 }
 if(gameModeSelect==1)
 {
     audio_play_sound(pigManBgm,10,true);
-    analytics_event("Ringpig Selected");
+    if(testingVar ==0)
+    {
+        analytics_event("Ringpig Selected");
+    }
+    else{}
 }
 if(gameModeSelect==2)
 {
     introLoopSwitch = 0;
     audio_play_sound(flyToLiveFull,10,false);
     background_index[1] = flowers;
+    if(testingVar ==0)
+    {
     analytics_event("Ringwoman Selected");
+    }
+    else{}
 }
 
 //RingMan Mode=0

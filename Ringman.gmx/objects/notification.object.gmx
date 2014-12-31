@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>analytics_event(global.profileName+" has reached Act 2");
+            <string>if(testingVar ==0)
+{
+    analytics_event(global.profileName+" has reached Act 2");
+}
 </string>
           </argument>
         </arguments>

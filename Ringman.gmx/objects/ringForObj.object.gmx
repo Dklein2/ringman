@@ -53,13 +53,14 @@
     if(self.x &lt; -10)
     {
             instance_destroy() ;
-            if(cheat ==0){
-            lives-=1; 
-            if(deviceManagement == 1 || deviceManagement ==2)
+            if(cheat ==0)
             {
-                immersion_play_effect(8);
+                lives-=1; 
+                if(deviceManagement == 1 || deviceManagement ==2)
+                {
+                    immersion_play_effect(8);
+                }
             }
-        }
         script_execute(s_RingGen);
     }
 /*}

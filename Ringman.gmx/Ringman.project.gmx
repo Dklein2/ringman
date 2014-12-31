@@ -74,6 +74,7 @@
         <sprite>sprites\downloadTextSprite</sprite>
         <sprite>sprites\skipTextSprite</sprite>
         <sprite>sprites\ringWomanTextSprite</sprite>
+        <sprite>sprites\purchaseSprite</sprite>
       </sprites>
       <sprites name="creditsText">
         <sprite>sprites\creditsMenuTextSprite</sprite>
@@ -115,6 +116,7 @@
       <background>background\backgroundTrees</background>
       <background>background\foregroundTrees</background>
       <background>background\flowers</background>
+      <background>background\how3TS</background>
     </backgrounds>
     <background>background\how1</background>
     <background>background\how2</background>
@@ -129,6 +131,8 @@
       <background>background\scoreboardBackground</background>
     </backgrounds>
     <background>background\fauxBackground</background>
+    <background>background\how1TS</background>
+    <background>background\how2TS</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -252,6 +256,7 @@
         <object>objects\skipTextObj</object>
         <object>objects\highscoreTextObj</object>
         <object>objects\downloadTextObj</object>
+        <object>objects\purchaseTextObj</object>
       </objects>
       <object>objects\ringsCollectedObj</object>
     </objects>

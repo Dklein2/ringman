@@ -174,7 +174,7 @@ else if (actFinder==2)
     slowRingBackObj.vspeed = background_vspeed[3];
     ringExpObj.vspeed = background_vspeed[3];
     
-    if (background_vspeed[3] &lt;-1)
+    if (background_vspeed[3] &lt; 1)
     {
      audio_stop_all();
      audio_play_sound(audioGameOver,10,false);

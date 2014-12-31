@@ -19,7 +19,7 @@
     <option_android_arch_mipsr2>false</option_android_arch_mipsr2>
     <option_android_arch_mipsr2sf>false</option_android_arch_mipsr2sf>
     <option_android_arch_x86>True</option_android_arch_x86>
-    <option_android_build_version>0</option_android_build_version>
+    <option_android_build_version>2</option_android_build_version>
     <option_android_color_depth>1</option_android_color_depth>
     <option_android_display_name>Ringman</option_android_display_name>
     <option_android_flurry_enable>0</option_android_flurry_enable>
@@ -48,7 +48,7 @@
     <option_android_licensing_enable>0</option_android_licensing_enable>
     <option_android_licensing_key></option_android_licensing_key>
     <option_android_major_version>2</option_android_major_version>
-    <option_android_minor_version>3</option_android_minor_version>
+    <option_android_minor_version>5</option_android_minor_version>
     <option_android_mobage>0</option_android_mobage>
     <option_android_mobage_appkey></option_android_mobage_appkey>
     <option_android_mobage_extension_location></option_android_mobage_extension_location>
@@ -64,7 +64,7 @@
     <option_android_ouya_icon>Configs\Default\android\icons\ouyaIcon.png</option_android_ouya_icon>
     <option_android_package_company>Infinit</option_android_package_company>
     <option_android_package_domain>com</option_android_package_domain>
-    <option_android_package_product>Ringman</option_android_package_product>
+    <option_android_package_product>RingmanFree</option_android_package_product>
     <option_android_permission_flags>8</option_android_permission_flags>
     <option_android_pocketchange_enable>0</option_android_pocketchange_enable>
     <option_android_pocketchange_id></option_android_pocketchange_id>

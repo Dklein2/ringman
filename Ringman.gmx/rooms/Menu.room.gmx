@@ -96,8 +96,9 @@ else if (deviceManagement == 2)
     <instance objName="howToTextObj" x="535" y="405" name="inst_5078E15D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="scoresTextObj" x="525" y="455" name="inst_1010078B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="creditsTextObj" x="525" y="495" name="inst_8830A1B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="exitTextObj" x="525" y="560" name="inst_A594F14E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="listener" x="85" y="365" name="inst_9402432E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="purchaseTextObj" x="520" y="530" name="inst_10F288F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="exitTextObj" x="480" y="605" name="inst_355A1140" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
